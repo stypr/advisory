@@ -1,0 +1,962 @@
+{
+    "SVDB-2022-0008":{
+        "vendor":"xddxdd",
+        "product":"bird-lg-go",
+        "affected_version":[
+            "< 1.0.0"
+        ],
+        "fixed_version":[
+            "1.0.0"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+        "external_id":null,
+        "secret":false,
+        "publish_date":"Aug 12, 2022",
+        "report":null,
+        "description":"Cross-site scripting vulnerability in page.tpl in xddxdd/bird-lg-go allows remote attackers to execute an arbitrary script on the web browser of the user who accesses a specially crafted URL.",
+        "reference":[
+            "https://github.com/xddxdd/bird-lg-go/issues/57"
+        ]
+    },
+    "SVDB-2022-0007":{
+        "vendor":"Vitejs",
+        "product":"Vite",
+        "affected_version":[
+            "<= 2.9.12",
+            "<= 3.0.0-beta.3"
+        ],
+        "fixed_version":[
+            "2.9.13",
+            "3.0.0-beta4"
+        ],
+        "cwe":[
+            "CWE-22"
+        ],
+        "cvss":"AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
+        "external_id":null,
+        "secret":false,
+        "publish_date":"Jun 27, 2022",
+        "report":null,
+        "description":"Path Traversal vulnerability in serveStaticMiddleware and serveRawFsMiddleware in Vitejs/vite &lt;v2.9.13 and Vitejs/vite &lt;v3.0.0-beta.4 allows the remote attacker to read arbitrary files by accessing into a specially crafted URL to the victim's service.",
+        "reference":[
+            "https://github.com/vitejs/vite/issues/8498",
+            "https://github.com/vitejs/vite/releases/tag/v2.9.13",
+            "https://github.com/vitejs/vite/releases/tag/v3.0.0-beta.4"
+        ]
+    },
+    "SVDB-2022-0006":{
+        "vendor":"Cveinnt",
+        "product":"LetsMarkdown.com",
+        "affected_version":[
+            "<= 0.1.0"
+        ],
+        "fixed_version":[
+            "0.1.0"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+        "external_id":null,
+        "secret":false,
+        "publish_date":"Jun 12, 2022",
+        "report":null,
+        "description":"letsmarkdown.com did not support any Cross-site Scripting (XSS) countermeasures, leading to arbitrary JavaScript execution when the victim accesses a specific markdown page.",
+        "reference":[
+            "https://github.com/Cveinnt/LetsMarkdown.com/issues/10"
+        ]
+    },
+    "SVDB-2022-0005":{
+        "vendor":"NETGEAR",
+        "product":"WAC124",
+        "affected_version":[
+            "<= 1.0.4.6"
+        ],
+        "fixed_version":[
+            "1.0.4.7"
+        ],
+        "cwe":[
+            "CWE-77"
+        ],
+        "cvss":"CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:H",
+        "external_id":"PSV-2022-0044",
+        "secret":false,
+        "publish_date":"Mar 24, 2022",
+        "report":"Flatt Security Inc.",
+        "description":"NETGEAR has released fixes for Post-Authentication Command Injection in NETGEAR WAC124 1.0.4.6",
+        "reference":[
+            "https://kb.netgear.com/000064730/Security-Advisory-for-Multiple-Vulnerabilities-on-the-WAC124-PSV-2022-0044",
+            "https://flattsecurity.medium.com/finding-bugs-to-trigger-unauthenticated-command-injection-in-a-netgear-router-psv-2022-0044-2b394fb9edc"
+        ]
+    },
+    "SVDB-2022-0004":{
+        "vendor":"NETGEAR",
+        "product":"WAC124",
+        "affected_version":[
+            "<= 1.0.4.6"
+        ],
+        "fixed_version":[
+            "1.0.4.7"
+        ],
+        "cwe":[
+            "CWE-288"
+        ],
+        "cvss":"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:H",
+        "external_id":"PSV-2022-0044",
+        "secret":false,
+        "publish_date":"Mar 24, 2022",
+        "report":"Flatt Security Inc.",
+        "description":"NETGEAR has released fixes for Authentication Bypass on the WAC124 in firmware version 1.0.4.7.",
+        "reference":[
+            "https://kb.netgear.com/000064730/Security-Advisory-for-Multiple-Vulnerabilities-on-the-WAC124-PSV-2022-0044",
+            "https://flattsecurity.medium.com/finding-bugs-to-trigger-unauthenticated-command-injection-in-a-netgear-router-psv-2022-0044-2b394fb9edc"
+        ]
+    },
+    "SVDB-2022-0003":{
+        "vendor":"NETGEAR",
+        "product":"WAC124",
+        "affected_version":[
+            "<= 1.0.4.6"
+        ],
+        "fixed_version":[
+            "1.0.4.7"
+        ],
+        "cwe":[
+            "CWE-22"
+        ],
+        "cvss":"CVSS:3.1/AV:L/AC:L/PR:H/UI:L/S:C/C:H/I:N/A:H",
+        "external_id":"PSV-2022-0044",
+        "secret":false,
+        "publish_date":"Mar 24, 2022",
+        "report":"Flatt Security Inc.",
+        "description":"NETGEAR has released fixes for Arbitrary File Read on the WAC124 in firmware version 1.0.4.7.",
+        "reference":[
+            "https://kb.netgear.com/000064730/Security-Advisory-for-Multiple-Vulnerabilities-on-the-WAC124-PSV-2022-0044",
+            "https://flattsecurity.medium.com/finding-bugs-to-trigger-unauthenticated-command-injection-in-a-netgear-router-psv-2022-0044-2b394fb9edc"
+        ]
+    },
+    "SVDB-2022-0002":{
+        "vendor":"NETGEAR",
+        "product":"WAC124",
+        "affected_version":[
+            "<= 1.0.4.6"
+        ],
+        "fixed_version":[
+            "1.0.4.7"
+        ],
+        "cwe":[
+            "CWE-79",
+            "CWE-80"
+        ],
+        "cvss":"CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:L/A:L",
+        "external_id":"PSV-2022-0044",
+        "secret":false,
+        "publish_date":"Mar 24, 2022",
+        "report":"Flatt Security Inc.",
+        "description":"NETGEAR has released fixes for Cross-site Scripting on the WAC124 in firmware version 1.0.4.7.",
+        "reference":[
+            "https://kb.netgear.com/000064730/Security-Advisory-for-Multiple-Vulnerabilities-on-the-WAC124-PSV-2022-0044",
+            "https://flattsecurity.medium.com/finding-bugs-to-trigger-unauthenticated-command-injection-in-a-netgear-router-psv-2022-0044-2b394fb9edc"
+        ]
+    },
+    "SVDB-2022-0001":{
+        "vendor":"ImageMagick",
+        "product":"imagemagick",
+        "affected_version":[
+            "<= 6.9.12-33",
+            "<= 7.1.0-18"
+        ],
+        "fixed_version":[
+            "6.9.12-34",
+            "7.1.0-19"
+        ],
+        "cwe":[
+            "CWE-20"
+        ],
+        "cvss":"CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "external_id":"CVE-2021-4219",
+        "secret":false,
+        "publish_date":"Feb 15, 2022",
+        "report":"Flatt Security Inc.",
+        "description":"A flaw was found in ImageMagick. The vulnerability occurs due to improper use of open functions and leads to a denial of service. This flaw allows an attacker to crash the system.",
+        "reference":[
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2054611",
+            "https://www.cve.org/CVERecord?id=CVE-2021-4219",
+            "https://github.com/ImageMagick/ImageMagick/issues/4626"
+        ]
+    },
+    "SVDB-2021-0018":{
+        "secret":true
+    },
+    "SVDB-2021-0017":{
+        "secret":true
+    },
+    "SVDB-2021-0016":{
+        "secret":true
+    },
+    "SVDB-2021-0015":{
+        "secret":true
+    },
+    "SVDB-2021-0014":{
+        "vendor":"pi-hole",
+        "product":"AdminLTE",
+        "affected_version":[
+            "<= 5.7"
+        ],
+        "fixed_version":[
+            "5.8"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+        "external_id":"CVE-2021-41175",
+        "secret":false,
+        "publish_date":"Oct 24, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Pi-hole's Web interface (based on AdminLTE) provides a central location to manage one's Pi-hole and review the statistics generated by FTLDNS. Prior to version 5.8, cross-site scripting is possible when adding a client via the groups-clients management page. This issue was patched in version 5.8.",
+        "reference":[
+            "https://github.com/pi-hole/AdminLTE/security/advisories/GHSA-mhr8-7rvg-8r43",
+            "https://github.com/pi-hole/AdminLTE/commit/01191c7a1b8d5032991ed9d88e0db8d3dbec744d",
+            "https://github.com/pi-hole/AdminLTE/releases/tag/v5.8"
+        ]
+    },
+    "SVDB-2021-0013":{
+        "vendor":"WESEEK, Inc.",
+        "product":"GROWI",
+        "affected_version":[
+            "<= v4.2.19"
+        ],
+        "fixed_version":[
+            "v4.2.20"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "external_id":"CVE-2021-20829",
+        "secret":false,
+        "publish_date":"Sep 17, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Cross-site scripting vulnerability due to the inadequate tag sanitization in GROWI versions v4.2.19 and earlier allows remote attackers to execute an arbitrary script on the web browser of the user who accesses a specially crafted page.",
+        "reference":[
+            "https://jvn.jp/en/vu/JVNVU94889258/index.html",
+            "https://weseek.co.jp/security/2021/09/17/vulnerability/growi-prevent-multiple-xss-addition/"
+        ]
+    },
+    "SVDB-2021-0012":{
+        "vendor":"Kallithea",
+        "product":"Kallithea",
+        "affected_version":[
+            "<= v0.6.2"
+        ],
+        "fixed_version":[
+            "v0.6.3"
+        ],
+        "cwe":[
+            "CWE-918"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "external_id":"CVE-2021-32407",
+        "secret":false,
+        "publish_date":"Sep 01, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Server-Side Request Forgery (SSRF) vulnerability in Kallithea - v0.1 up to v0.6.2 and fixed in v0.6.3, allows a remote authenticated attacker to execute a 'git clone' with a crafted URL, which allows them to send arbitrary packets into the local network accessible from the server.",
+        "reference":[
+            "https://kallithea-scm.org/security/20201201-stypr-2.html",
+            "https://kallithea-scm.org/repos/kallithea/changeset/a8a51a3bdb6181e498a862f84eb2d50928330a68"
+        ]
+    },
+    "SVDB-2021-0011":{
+        "vendor":"Gogs",
+        "product":"Gogs",
+        "affected_version":[
+            "<= v1.12.3"
+        ],
+        "fixed_version":[
+            "v1.13.0"
+        ],
+        "cwe":[
+            "CWE-918"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "external_id":"CVE-2021-32408",
+        "secret":false,
+        "publish_date":"Sep 01, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Server-Side Request Forgery (SSRF) vulnerability in Gogs 0.7.0 through 1.12.x before 1.12.3 does not prevent a git protocol path that specifies a TCP port number and also contains newlines (with URL encoding) in ParseRemoteAddr in internal/form/repo.go.",
+        "reference":[
+            "https://github.com/gogs/gogs/issues/6413",
+            "https://github.com/gogs/gogs/pull/6420"
+        ]
+    },
+    "SVDB-2021-0010":{
+        "vendor":"Kallithea",
+        "product":"Kallithea",
+        "affected_version":[
+            "<= v0.6.2"
+        ],
+        "fixed_version":[
+            "v0.6.3"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:N",
+        "external_id":"CVE-2021-32409",
+        "secret":false,
+        "publish_date":"Sep 01, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Cross Site Scripting (XSS) in Kallithea v0.4.0 up to v0.6.2 and fixed in v0.6.3, when displaying repository group descriptions.",
+        "reference":[
+            "https://kallithea-scm.org/security/20201201-stypr-1.html",
+            "https://kallithea-scm.org/repos/kallithea/changeset/cd8fa11c5c89278a103b795db50e740594038ec8"
+        ]
+    },
+    "SVDB-2021-0008":{
+        "vendor":"Adminer",
+        "product":"Adminer",
+        "affected_version":[
+            "<= v4.8.0"
+        ],
+        "fixed_version":[
+            "v4.8.1"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "external_id":"CVE-2021-29625",
+        "secret":false,
+        "publish_date":"May 15, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Adminer is open-source database management software. A cross-site scripting vulnerability in Adminer versions 4.6.1 to 4.8.0 affects users of MySQL, MariaDB, PgSQL and SQLite. XSS is in most cases prevented by strict CSP in all modern browsers. The only exception is when Adminer is using a `pdo_` extension to communicate with the database (it is used if the native extensions are not enabled). In browsers without CSP, Adminer versions 4.6.1 to 4.8.0 are affected. The vulnerability is patched in version 4.8.1. As workarounds, one can use a browser supporting strict CSP or enable the native PHP extensions (e.g. `mysqli`) or disable displaying PHP errors (`display_errors`).",
+        "reference":[
+            "https://github.com/vrana/adminer/commit/4043092ec2c0de2258d60a99d0c5958637d051a7",
+            "https://github.com/vrana/adminer/security/advisories/GHSA-2v82-5746-vwqc",
+            "https://sourceforge.net/p/adminer/bugs-and-features/797/"
+        ]
+    },
+    "SVDB-2021-0007":{
+        "vendor":"WESEEK, Inc.",
+        "product":"GROWI",
+        "affected_version":[
+            "<= v4.2.2"
+        ],
+        "fixed_version":[
+            "v4.2.20"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+        "external_id":"CVE-2021-20667",
+        "secret":false,
+        "publish_date":"Mar 08, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Stored cross-site scripting vulnerability due to inadequate CSP (Content Security Policy) configuration in GROWI versions v4.2.2 and earlier allows remote authenticated attackers to inject an arbitrary script via a specially crafted content.",
+        "reference":[
+            "https://weseek.co.jp/security/2021/03/08/vulnerability/growi-prevent-multiple-xss/",
+            "https://jvn.jp/en/vu/JVNVU94889258/index.html"
+        ]
+    },
+    "SVDB-2021-0006":{
+        "vendor":"WESEEK, Inc.",
+        "product":"GROWI",
+        "affected_version":[
+            "<= v4.2.2"
+        ],
+        "fixed_version":[
+            "v4.2.20"
+        ],
+        "cwe":[
+            "CWE-22"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+        "external_id":"CVE-2021-20668",
+        "secret":false,
+        "publish_date":"Mar 08, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Path traversal vulnerability in GROWI versions v4.2.2 and earlier allows an attacker with administrator rights to read an arbitrary path via a specially crafted URL.",
+        "reference":[
+            "https://weseek.co.jp/security/2021/03/08/vulnerability/growi-prevent-multiple-xss/",
+            "https://jvn.jp/en/vu/JVNVU94889258/index.html"
+        ]
+    },
+    "SVDB-2021-0005":{
+        "vendor":"WESEEK, Inc.",
+        "product":"GROWI",
+        "affected_version":[
+            "<= v4.2.2"
+        ],
+        "fixed_version":[
+            "v4.2.20"
+        ],
+        "cwe":[
+            "CWE-22"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+        "external_id":"CVE-2021-20669",
+        "secret":false,
+        "publish_date":"Mar 08, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Path traversal vulnerability in GROWI versions v4.2.2 and earlier allows an attacker with administrator rights to read and/or delete an arbitrary path via a specially crafted URL.",
+        "reference":[
+            "https://weseek.co.jp/security/2021/03/08/vulnerability/growi-prevent-multiple-xss/",
+            "https://jvn.jp/en/vu/JVNVU94889258/index.html"
+        ]
+    },
+    "SVDB-2021-0004":{
+        "vendor":"WESEEK, Inc.",
+        "product":"GROWI",
+        "affected_version":[
+            "<= v4.2.2"
+        ],
+        "fixed_version":[
+            "v4.2.20"
+        ],
+        "cwe":[
+            "CWE-284"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "external_id":"CVE-2021-20670",
+        "secret":false,
+        "publish_date":"Mar 08, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Improper access control vulnerability in GROWI versions v4.2.2 and earlier allows a remote unauthenticated attacker to read the user's personal information and/or server's internal information via unspecified vectors.",
+        "reference":[
+            "https://weseek.co.jp/security/2021/03/08/vulnerability/growi-prevent-multiple-xss/",
+            "https://jvn.jp/en/vu/JVNVU94889258/index.html"
+        ]
+    },
+    "SVDB-2021-0003":{
+        "vendor":"WESEEK, Inc.",
+        "product":"GROWI",
+        "affected_version":[
+            "<= v4.2.2"
+        ],
+        "fixed_version":[
+            "v4.2.20"
+        ],
+        "cwe":[
+            "CWE-20",
+            "CWE-73"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "external_id":"CVE-2021-20671",
+        "secret":false,
+        "publish_date":"Mar 08, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"Invalid file validation on the upload feature in GROWI versions v4.2.2 allows a remote attacker with administrative privilege to overwrite the files on the server, which may lead to arbitrary code execution.",
+        "reference":[
+            "https://weseek.co.jp/security/2021/03/08/vulnerability/growi-prevent-multiple-xss/",
+            "https://jvn.jp/en/vu/JVNVU94889258/index.html"
+        ]
+    },
+    "SVDB-2021-0002":{
+        "secret":true
+    },
+    "SVDB-2021-0001":{
+        "vendor":"git",
+        "product":"git",
+        "affected_version":[
+            "<= v2.30.0"
+        ],
+        "fixed_version":[
+            "v2.30.1"
+        ],
+        "cwe":[
+            "CWE-918"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "external_id":"CVE-2021-40330",
+        "secret":false,
+        "publish_date":"Jan 8, 2021",
+        "report":"Flatt Security Inc.",
+        "description":"git_connect_git in connect.c in Git before 2.30.1 allows a repository path to contain a newline character, which may result in unexpected cross-protocol requests, as demonstrated in the git commit",
+        "reference":[
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-40330",
+            "https://github.com/git/git/commit/a02ea577174ab8ed18f847cf1693f213e0b9c473"
+        ]
+    },
+    "SVDB-2020-0016":{
+        "vendor":"kujirahand",
+        "product":"Konawiki3",
+        "affected_version":[
+            "<= v3.1.2"
+        ],
+        "fixed_version":[
+            "v3.1.3"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "external_id":"CVE-2020-5673",
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+        "secret":false,
+        "publish_date":"Nov 17, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"Cross-site Scripting(XSS) was found on KonaWiki3 versions v3.1.3 and earlier. Because the sanitizing process is not performed properly, an arbitrary script is executed on the web browser of the user who accesses a specially crafted URL.",
+        "reference":[
+            "https://jvn.jp/en/vu/JVNVU99880454/index.html"
+        ]
+    },
+    "SVDB-2020-0015":{
+        "vendor":"kujirahand",
+        "product":"Konawiki3",
+        "affected_version":[
+            "<= v3.1.2"
+        ],
+        "fixed_version":[
+            "v3.1.3"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+        "external_id":"CVE-2020-5672",
+        "secret":false,
+        "publish_date":"Nov 17, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"Cross-site Scripting(XSS) was found on KonaWiki3 versions v3.1.3 and earlier. Because the sanitizing process is not performed properly, an arbitrary script is executed on the web browser of the user who accesses a wiki page containing a specially crafted content written by an attacker.",
+        "reference":[
+            "https://jvn.jp/en/vu/JVNVU99880454/index.html"
+        ]
+    },
+    "SVDB-2020-0014":{
+        "vendor":"kujirahand",
+        "product":"Konawiki3",
+        "affected_version":[
+            "<= v3.1.2"
+        ],
+        "fixed_version":[
+            "v3.1.3"
+        ],
+        "cwe":[
+            "CWE-22"
+        ],
+        "cvss":"CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+        "external_id":"CVE-2020-5671",
+        "secret":false,
+        "publish_date":"Nov 17, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"Path Traversal was found on KonaWiki3 versions v3.1.3 and earlier. Inadequate query checking allows unauthorized disclosure of information stored above the target directory published as a website by a remote attacker. By exploiting this vulnerability, arbitrary files can be obtained.",
+        "reference":[
+            "https://jvn.jp/en/vu/JVNVU99880454/index.html"
+        ]
+    },
+    "SVDB-2020-0013":{
+        "vendor":"kujirahand",
+        "product":"Konawiki3",
+        "affected_version":[
+            "<= v3.1.2"
+        ],
+        "fixed_version":[
+            "v3.1.3"
+        ],
+        "cwe":[
+            "CWE-22"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "external_id":"CVE-2020-5670",
+        "secret":false,
+        "publish_date":"Nov 17, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"Path Traversal was found on KonaWiki3 versions v3.1.3 and earlier. Inadequate query checking allows unauthorized disclosure of information stored above the target directory published as a website by a remote attacker. The exploit of this vulnerability is limited to the files with specific extension only.",
+        "reference":[
+            "https://jvn.jp/en/vu/JVNVU99880454/index.html"
+        ]
+    },
+    "SVDB-2020-0012":{
+        "vendor":"RIKEN",
+        "product":"XooNIps",
+        "affected_version":[
+            "<= v3.49"
+        ],
+        "fixed_version":[
+            "v3.50"
+        ],
+        "cwe":[
+            "CWE-502"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "external_id":"CVE-2020-5664",
+        "secret":false,
+        "publish_date":"Nov 06, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"Deserialization of untrusted data vulnerability in XooNIps 3.49 and earlier allows remote attackers to execute arbitrary code via unspecified vectors.",
+        "reference":[
+            "https://xoonips.osdn.jp/modules/news/index.php?page=article&storyid=13",
+            "https://jvn.jp/en/vu/JVNVU92053563/index.html"
+        ]
+    },
+    "SVDB-2020-0011":{
+        "vendor":"Gitea",
+        "product":"Gitea",
+        "affected_version":[
+            "<= v1.12.5"
+        ],
+        "fixed_version":[
+            "v1.12.6"
+        ],
+        "cwe":[
+            "CWE-918"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "external_id":"CVE-2020-28991",
+        "secret":false,
+        "publish_date":"Nov 16, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"Gitea 0.9.99 through 1.12.x before 1.12.6 does not prevent a git protocol path that specifies a TCP port number and also contains newlines (with URL encoding) in ParseRemoteAddr in modules/auth/repo_form.go.",
+        "reference":[
+            "https://github.com/go-gitea/gitea/pull/13525",
+            "https://github.com/go-gitea/gitea/releases/tag/v1.12.6"
+        ]
+    },
+    "SVDB-2020-0010":{
+        "vendor":"RIKEN",
+        "product":"XooNIps",
+        "affected_version":[
+            "<= v3.49"
+        ],
+        "fixed_version":[
+            "v3.50"
+        ],
+        "cwe":[
+            "CWE-89"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "external_id":"CVE-2020-5659",
+        "secret":false,
+        "publish_date":"Nov 06, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"SQL injection vulnerability in the XooNIps 3.49 and earlier allows remote authenticated attackers to execute arbitrary SQL commands via unspecified vectors.",
+        "reference":[
+            "https://xoonips.osdn.jp/modules/news/index.php?page=article&storyid=13",
+            "https://jvn.jp/en/vu/JVNVU92053563/index.html"
+        ]
+    },
+    "SVDB-2020-0009":{
+        "vendor":"RIKEN",
+        "product":"XooNIps",
+        "affected_version":[
+            "<= v3.49"
+        ],
+        "fixed_version":[
+            "v3.50"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+        "external_id":"CVE-2020-5662",
+        "secret":false,
+        "publish_date":"Nov 06, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"Reflected cross-site scripting vulnerability in XooNIps 3.49 and earlier allows remote authenticated attackers to inject arbitrary script via unspecified vectors.",
+        "reference":[
+            "https://xoonips.osdn.jp/modules/news/index.php?page=article&storyid=13",
+            "https://jvn.jp/en/vu/JVNVU92053563/index.html"
+        ]
+    },
+    "SVDB-2020-0008":{
+        "vendor":"RIKEN",
+        "product":"XooNIps",
+        "affected_version":[
+            "<= v3.49"
+        ],
+        "fixed_version":[
+            "v3.50"
+        ],
+        "cwe":[
+            "CWE-89"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+        "external_id":"CVE-2020-5663",
+        "secret":false,
+        "publish_date":"Nov 06, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"Stored cross-site scripting vulnerability in XooNIps 3.49 and earlier allows remote authenticated attackers to inject arbitrary script via unspecified vectors.",
+        "reference":[
+            "https://xoonips.osdn.jp/modules/news/index.php?page=article&storyid=13",
+            "https://jvn.jp/en/vu/JVNVU92053563/index.html"
+        ]
+    },
+    "SVDB-2020-0007":{
+        "vendor":"SpiQe",
+        "product":"OneThird CMS",
+        "affected_version":[
+            "<= v1.96c"
+        ],
+        "fixed_version":[
+            "v1.96d"
+        ],
+        "cwe":[
+            "CWE-98",
+            "CWE-94"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "external_id":"CVE-2020-5640",
+        "secret":false,
+        "publish_date":"Oct 20, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"Local file inclusion vulnerability in OneThird CMS v1.96c and earlier allows a remote unauthenticated attacker to execute arbitrary code or obtain sensitive information via unspecified vectors.",
+        "reference":[
+            "https://onethird.net/en/p1340.html",
+            "https://jvn.jp/en/vu/JVNVU99467898/index.html"
+        ]
+    },
+    "SVDB-2020-0006":{
+        "vendor":"CMONOS Co. Ltd.",
+        "product":"CMONOS.JP",
+        "affected_version":[
+            "<= v2.0.20191009"
+        ],
+        "fixed_version":[
+            "ver2.0.20200916"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "external_id":"CVE-2020-5631",
+        "secret":false,
+        "publish_date":"Sep 25, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"Stored cross-site scripting vulnerability in CMONOS.JP ver2.0.20191009 and earlier allows remote attackers to inject arbitrary script via unspecified vectors.",
+        "reference":[
+            "https://jvn.jp/en/vu/JVNVU93741515/index.html",
+            "https://cmonos.jp/download/history.html"
+        ]
+    },
+    "SVDB-2020-0005":{
+        "vendor":"Brassica Inc.",
+        "product":"SOY CMS",
+        "affected_version":[
+            "<= 3.0.2.327"
+        ],
+        "fixed_version":[
+            "3.0.2.328"
+        ],
+        "cwe":[
+            "CWE-22",
+            "CWE-352"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+        "external_id":"CVE-2020-15182",
+        "secret":false,
+        "publish_date":"Sep 17, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"The SOY Inquiry component of SOY CMS is affected by Cross-site Request Forgery (CSRF) and Remote Code Execution (RCE). The vulnerability affects versions 2.0.0.3 and earlier of SOY Inquiry. This allows remote attackers to force the administrator to edit files once the administrator loads a specially crafted webpage. An administrator must be logged in for exploitation to be possible. This issue is fixed in SOY Inquiry version 2.0.0.4 and included in SOY CMS 3.0.2.328.",
+        "reference":[
+            "https://github.com/inunosinsi/soycms/security/advisories/GHSA-j2qw-747j-mfv4",
+            "https://youtu.be/ffvKH3gwyRE",
+            "https://github.com/inunosinsi/soycms/pull/15"
+        ]
+    },
+    "SVDB-2020-0004":{
+        "vendor":"Brassica Inc.",
+        "product":"SOY CMS",
+        "affected_version":[
+            "<= 3.0.2.327"
+        ],
+        "fixed_version":[
+            "3.0.2.328"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+        "external_id":"CVE-2020-15183",
+        "secret":false,
+        "publish_date":"Sep 17, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"SoyCMS 3.0.2 and earlier is affected by Reflected Cross-Site Scripting (XSS) which leads to Remote Code Execution (RCE) from a known vulnerability. This allows remote attackers to force the administrator to edit files once the adminsitrator loads a specially crafted webpage.",
+        "reference":[
+            "https://github.com/inunosinsi/soycms/security/advisories/GHSA-33q6-4xmp-2f48",
+            "https://github.com/inunosinsi/soycms/commit/045a222016f99b56557b0d8f39bbfc653d2c4707",
+            "https://youtu.be/uAMAwH35ups"
+        ]
+    },
+    "SVDB-2020-0003":{
+        "vendor":"Brassica Inc.",
+        "product":"SOY CMS",
+        "affected_version":[
+            "<= 3.0.2.327"
+        ],
+        "fixed_version":[
+            "3.0.2.328"
+        ],
+        "cwe":[
+            "CWE-502"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+        "external_id":"CVE-2020-15188",
+        "secret":false,
+        "publish_date":"Sep 17, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"SOY CMS 3.0.2.327 and earlier is affected by Unauthenticated Remote Code Execution (RCE). The allows remote attackers to execute any arbitrary code when the inquiry form feature is enabled by the service. The vulnerability is caused by unserializing the form without any restrictions. This was fixed in 3.0.2.328.",
+        "reference":[
+            "https://github.com/inunosinsi/soycms/security/advisories/GHSA-hrrx-m22r-p9jp",
+            "https://github.com/inunosinsi/soycms/issues/10",
+            "https://github.com/inunosinsi/soycms/pull/12/commits/a75642989132dd25f74a13194b27c0986c3de020",
+            "https://www.youtube.com/watch?v=zAE4Swjc-GU&feature=youtu.be"
+        ]
+    },
+    "SVDB-2020-0002":{
+        "vendor":"Brassica Inc.",
+        "product":"SOY CMS",
+        "affected_version":[
+            "<= 3.0.2.327"
+        ],
+        "fixed_version":[
+            "3.0.2.328"
+        ],
+        "cwe":[
+            "CWE-434"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "external_id":"CVE-2020-15189",
+        "secret":false,
+        "publish_date":"Sep 17, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"SOY CMS 3.0.2 and earlier is affected by Remote Code Execution (RCE) using Unrestricted File Upload. Cross-Site Scripting(XSS) vulnerability that was used in CVE-2020-15183 can be used to increase impact by redirecting the administrator to access a specially crafted page. This vulnerability is caused by insecure configuration in elFinder. This is fixed in version 3.0.2.328.",
+        "reference":[
+            "https://github.com/inunosinsi/soycms/security/advisories/GHSA-6r2f-p68g-m433",
+            "https://github.com/inunosinsi/soycms/pull/14/commits/e4ef00677ed52f9e5a5fcfcb56b797f5412b5d59",
+            "https://youtu.be/FWIDFNXmr9g"
+        ]
+    },
+    "SVDB-2020-0001":{
+        "vendor":"baserproject",
+        "product":"basercms",
+        "affected_version":[
+            "<= v4.3.6"
+        ],
+        "fixed_version":[
+            "v4.3.7"
+        ],
+        "cwe":[
+            "CWE-79",
+            "CWE-434"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H",
+        "external_id":"CVE-2020-15159",
+        "secret":false,
+        "publish_date":"Aug 27, 2020",
+        "report":"Flatt Security Inc.",
+        "description":"baserCMS 4.3.6 and earlier is affected by Cross Site Scripting (XSS) and Remote Code Execution (RCE). This may be executed by logging in as a system administrator and uploading an executable script file such as a PHP file.The affected components are ThemeFilesController.php and UploaderFilesController.php. This is fixed in version 4.3.7",
+        "reference":[
+            "https://basercms.net/security/20200827",
+            "https://github.com/baserproject/basercms/security/advisories/GHSA-673x-f5wx-fxpw",
+            "https://github.com/baserproject/basercms/commit/16a7b3cd09a0ca355474119c76897eac2034a66d"
+        ]
+    },
+    "SVDB-2019-0001":{
+        "vendor":"LINE Corporation",
+        "product":"Central Dogma",
+        "affected_version":[
+            "<= v0.40.1"
+        ],
+        "fixed_version":[
+            "v0.41.0"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "external_id":"CVE-2019-6002",
+        "secret":false,
+        "publish_date":"Jul 26, 2019",
+        "report":"LINE Corporation",
+        "description":"Central Dogma contains a cross-site scripting vulnerability.",
+        "reference":[
+            "http://jvn.jp/en/jp/JVN94889214/index.html",
+            "https://github.com/line/centraldogma/releases/tag/centraldogma-0.41.0"
+        ]
+    },
+    "SVDB-2018-0007":{
+        "vendor":"GNUBoard",
+        "product":"GNUBoard5",
+        "affected_version":[
+            "<= 5.3.1.4"
+        ],
+        "fixed_version":[
+            "v5.3.1.6"
+        ],
+        "cwe":[
+            "CWE-327",
+            "CWE-338"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+        "external_id":"KVE-2018-0441",
+        "secret":false,
+        "publish_date":"3Q 2018",
+        "description":"GNUBoard/YoungCart <= 5.3.1.4 is affected by MySQL password leak. MD5 hash of the target server's MySQL password can be leaked by misusing the customized encryption function.",
+        "reference":[
+            "https://github.com/gnuboard/gnuboard5/commit/c03fec73b9aeb6571271f4141788e614cc3f6e82",
+            "https://www.youtube.com/watch?v=ZRczf4UTypQ"
+        ]
+    },
+    "SVDB-2018-0006":{
+        "vendor":"GNUBoard",
+        "product":"GNUBoard5",
+        "affected_version":[
+            "<= 5.3.1.4"
+        ],
+        "fixed_version":[
+            "v5.3.1.6"
+        ],
+        "cwe":[
+            "CWE-79",
+            "CWE-352",
+            "CWE-98"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+        "external_id":"KVE-2018-0449",
+        "secret":false,
+        "publish_date":"3Q 2018",
+        "description":"Cross-Site Request Forgery and Remote Code Execution on GNUBoard5/Youngcart5 5.3.1.4",
+        "reference":[
+            "https://github.com/gnuboard/gnuboard5/commit/c03fec73b9aeb6571271f4141788e614cc3f6e82",
+            "https://www.youtube.com/watch?v=56adGYBfHNQ"
+        ]
+    },
+    "SVDB-2018-0005":{
+        "vendor":"GNUBoard",
+        "product":"GNUBoard5",
+        "affected_version":[
+            "<= 5.3.1.4"
+        ],
+        "fixed_version":[
+            "v5.3.1.6"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+        "external_id":"KVE-2018-0439",
+        "secret":false,
+        "publish_date":"3Q 2018",
+        "description":"Reflected XSS on GNUBoard5/Youngcart5 5.3.1.4",
+        "reference":[
+            "https://github.com/gnuboard/gnuboard5/commit/c03fec73b9aeb6571271f4141788e614cc3f6e82",
+            "https://www.youtube.com/watch?v=56adGYBfHNQ"
+        ]
+    },
+    "SVDB-2018-0004":{
+        "secret":true
+    },
+    "SVDB-2018-0003":{
+        "secret":true
+    },
+    "SVDB-2018-0002":{
+        "secret":true
+    },
+    "SVDB-2018-0001":{
+        "secret":true
+    }
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>svdb: stypr vuln database</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.8, shrink-to-fit=no" />
+        <meta name="keywords" content="stypr, cve, kve, zeroday, vulnerability, disclosure, Harold Kim, harold.kim" />
+        <meta name="google" content="notranslate" />
+        <meta name="theme-color" content="#020" />
+        <meta name="referrer" content="no-referrer" />
+        <meta name="description" content="List of security advisories made by stypr" />
+        <meta name="twitter:title" content="stypr: advisory">
+        <meta property="og:title" content="stypr: advisory">
+        <link rel="shortcut icon" href="/static/images/favicon.jpg" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/static/images/favicon.jpg" />
+        <link rel="preload" href="/static/fonts/SUIT-Variable.woff2" as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="/static/fonts/oxygen.woff2" as="font" type="font/woff2" crossorigin />
+        <link href="/static/stylesheet/bootstrap.css?2208110148" rel="stylesheet" />
+        <link href="/static/stylesheet/bootstrap.stypr.css?2208110148" rel="stylesheet" />
+    </head>
+
+    <body class="bg-light d-flex flex-column h-100">
+        <header>
+            <div class="px-3 py-3 text-bg-dark">
+                <div class="container">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="/" class="d-flex align-items-center my-2 my-lg-0 text-white text-decoration-none">
+                            <span class="logo">SVDB</span>
+                        </a>
+                        <span class="d-none d-sm-none d-md-none d-lg-block d-xl-block mb-3 px-2 mb-md-0 lh-1 me-lg-auto">
+                            <small class="text-monospace"> </small>
+                            <br />
+                            <small class="text-monospace"> </small>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-scroller bg-body shadow-sm">
+                <div class="container">
+                    <nav class="nav" aria-label="Secondary navigation">
+                        <a class="nav-link" aria-current="page" href="#advisory">
+                            Security Advisories
+                            <span class="rounded-pill badge text-bg-secondary align-text-bottom" id="counter-advisory">1</span>
+                        </a>
+                        <a class="nav-link" href="#policy"> Disclosure Policy</span></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="d-none align-items-center p-5 my-5" id="loading-screen">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="spinner-grow" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <br />
+                    <small>Fetching the latest information from the feed.. Please wait!</small>
+                </div>
+            </div>
+        </div>
+        <main class="flex-shrink-0 pb-5 pt-4">
+            <div class="container">
+                <div class="d-none align-items-center p-5 my-5" id="loading-screen">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="spinner-grow" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <br />
+                            <small>Fetching the latest information from routers.. Please wait!</small>
+                        </div>
+                    </div>
+                </div>
+                <div id="page-policy">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <div class="mb-12">
+                            <h1 class="h2">Disclosure Policy</h1>
+                        </div>
+                    </div>
+                    <div class="card p-4 rounded-0 shadow-sm">
+                        <h6>
+                            All public security vulnerability disclosures made by <a href="//harold.kim/">stypr</a> are published on this website.<br>
+                            Please contact <a>roo<span class="d-none">ro</span>t+advisory&#64;st<span class="d-none">stypr</span>ypr&#46;com</a> for any inquiries regarding the advisory.<br><br>
+                            Technical details of a vulnerability won't be shared for 30 days if a vendor patches it before the 90-day deadline. The 30-day period is intended for user patch adoption.
+                            Most of rules for responsible disclosure are similar or identical to <a href="https://googleprojectzero.blogspot.com/2021/04/policy-and-disclosure-2021-edition.html">Google Project Zero&#39;s Disclosure Policy</a>. Respective rules apply upon mutual agreements.
+                            <br><br>
+                            This page works best with the latest version of Chrome or Firefox.
+                        </h6>
+                    </div>
+                </div>
+                <div id="page-advisory">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <div class="mb-12">
+                            <h1 class="h2">Vulnerability Disclosures</h1>
+                            <h6>List of all published security vulnerability disclosures by stypr.</h6>
+                        </div>
+                    </div>
+                    <div class="my-3 p-0 bg-body shadow-sm">
+                        <table class="table table-hover table-responsive">
+                            <thead class="table-dark">
+                                <th style="width: 120px;">&nbsp;</th>
+                                <th style="width: 70px;">&nbsp;</th>
+                                <th>Product Name</th>
+                                <th style="width: 160px;">CWE</th>
+                                <th style="width: 130px;" class="d-none d-sm-none d-md-table-cell d-lg-table-cell d-xl-table-cell">Date</th>
+                            </thead>
+                            <tbody id="vuln-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center my-0 py-2 mt-auto bg-white border-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 d-flex align-items-center">
+                        <span class="mb-3 text-muted lh-1 my-3">
+                            &copy; 2022 stypr
+                            <br />
+                            <small class="text-monospace">Under MIT License. Respective copyrights apply.</small>
+                        </span>
+                    </div>
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex align-items-center">
+                        <li class="ms-3">
+                            <a class="text-muted" href="https://twitter.com/stereotype32">
+                                <svg class="bi" width="24" height="24">
+                                    <use xlink:href="/static/images/icon.stypr.svg#twitter" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-muted" href="https://github.com/stypr">
+                                <svg class="bi" width="24" height="24">
+                                    <use xlink:href="/static/images/icon.stypr.svg#github" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-muted" href="https://harold.kim">
+                                <svg class="bi" width="24" height="24">
+                                    <use xlink:href="/static/images/icon.stypr.svg#house-fill" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script crossorigin src="https://unpkg.com/bootstrap@5.2.0/dist/js/bootstrap.min.js" crossorigin async></script>
+        <script src="/static/javascript/cvss.js"></script>
+        <script src="/static/javascript/dashboard.js" defer></script>
+    </body>
+</html>
+
+<!--
+
+                d8                           
+        d88~\ _d88__ Y88b  / 888-~88e  888-~\
+       C888    888    Y888/  888  888b 888   
+        Y88b   888     Y8/   888  8888 888   
+         888D  888      Y    888  888P 888   
+       \_88P   "88_/   /     888-_88"  888   
+                     _/      888             
+
+          Copyright 2022 stypr ¯\_(ツ)_/¯
+    https://github.com/stypr/advisories/LICENSE
+
+-->
