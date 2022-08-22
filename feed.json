@@ -36,7 +36,7 @@
             "CWE-22"
         ],
         "cvss":"AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
-        "external_id":null,
+        "external_id":"CVE-2022-35204",
         "secret":false,
         "publish_date":"Jun 27, 2022",
         "report":null,
