@@ -1,4 +1,50 @@
 {
+    "SVDB-2022-0010":{
+        "vendor":"Pukiwiki",
+        "product":"PukiWiki",
+        "affected_version":[
+            "< 1.5.4"
+        ],
+        "fixed_version":[
+            "1.5.4"
+        ],
+        "cwe":[
+            "CWE-22"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:N",
+        "external_id":"CVE-2022-34486",
+        "secret":false,
+        "publish_date":"Aug 23, 2022",
+        "report":"Flatt Security Inc.",
+        "description":"An arbitrary server-side code may be executed upon a victim opening a specially crafted HTML file.",
+        "reference":[
+            "https://jvn.jp/en/vu/JVNVU96002401/index.html",
+            "https://pukiwiki.osdn.jp/?PukiWiki/Errata"
+        ]
+    },
+    "SVDB-2022-0009":{
+        "vendor":"Pukiwiki",
+        "product":"PukiWiki",
+        "affected_version":[
+            "< 1.5.4"
+        ],
+        "fixed_version":[
+            "1.5.4"
+        ],
+        "cwe":[
+            "CWE-79"
+        ],
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "external_id":"CVE-2022-27637",
+        "secret":false,
+        "publish_date":"Aug 23, 2022",
+        "report":"Flatt Security Inc.",
+        "description":"Cross-site scripting vulnerability due to the inadequate tag sanitization in PukiWiki versions v1.5.3 and earlier allows remote attackers to execute an arbitrary script on the web browser of the user who accesses a specially crafted URL.",
+        "reference":[
+            "https://jvn.jp/en/vu/JVNVU96002401/index.html",
+            "https://pukiwiki.osdn.jp/?PukiWiki/Errata"
+        ]
+    },
     "SVDB-2022-0008":{
         "vendor":"xddxdd",
         "product":"bird-lg-go",
@@ -11,7 +57,7 @@
         "cwe":[
             "CWE-79"
         ],
-        "cvss":"AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
         "external_id":null,
         "secret":false,
         "publish_date":"Aug 12, 2022",
@@ -35,7 +81,7 @@
         "cwe":[
             "CWE-22"
         ],
-        "cvss":"AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
+        "cvss":"CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
         "external_id":"CVE-2022-35204",
         "secret":false,
         "publish_date":"Jun 27, 2022",
