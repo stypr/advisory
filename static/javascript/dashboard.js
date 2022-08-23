@@ -124,6 +124,7 @@ const renderResultTable = async (response) => {
         }
 
         if(response[vulnId].secret){
+            /*
             result += `
                 <tr class="disable-hover" style="pointer-events: none;">
                     <td class="text-monospace text-end align-middle">
@@ -138,7 +139,7 @@ const renderResultTable = async (response) => {
                     </td>
                 </tr>
             `;
-            console.log(result);
+            */
         }else{
             result += `
                 <tr style="cursor: pointer;" onclick="toggleOutput('${vulnId}')">
